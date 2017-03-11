@@ -1,0 +1,10 @@
+{
+  "dogs":[
+    {
+      "name":"Great Dog!",
+      "desc":"Very Great!",
+      "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec fermentum pellentesque est, vel ullamcorper metus convallis et. ",
+      "image":"images/dog.jpg"
+    }
+  ]
+}

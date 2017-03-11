@@ -1,0 +1,18 @@
+<div class="row">
+    <div class="col-md-9">
+        <img ng-src="images/{{dog.dogs.fields[dog.tab-1].image}}" alt="dog" class="center-block img-thumbnail images">
+        <div class="text-center">
+            <h4>{{dog.dogs.fields[dog.tab-1].name}} <small>{{dog.dogs.fields[dog.tab-1].desc}}</small></h4>
+            <p>{{dog.dogs.fields[dog.tab-1].text}}</p>
+        </div>
+    </div>
+    <div class="col-md-2 col-md-offset-1">
+        <h4 class="text-center">Main Menu:</h4>
+        <ul class="nav nav-pills nav-stacked text-center">
+            <li ng-class="{ active:dog.isSelected(1)}"><a href ng-click="dog.selectTab(1)">Page 1</a></li>
+            <li ng-class="{ active:dog.isSelected(2)}"><a href ng-click="dog.selectTab(2)">Page 2</a></li>
+            <li ng-class="{ active:dog.isSelected(3)}"><a href ng-click="dog.selectTab(3)">Page 3</a></li>
+            <li ng-class="{ active:dog.isSelected(4)}"><a href ng-click="dog.selectTab(4)">Page 4</a></li>
+        </ul>
+    </div>
+</div>
